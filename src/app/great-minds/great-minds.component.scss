@@ -1,0 +1,135 @@
+.grat-mind {
+    background-color: #f7f7f7;
+}
+
+.p-b-10 {
+    padding-bottom: 10px;
+}
+
+.p-t-20 {
+    padding-top: 20px;
+}
+.mt-5, .my-5 {
+    margin-top: 3rem!important;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+}
+.mt-3, .my-3 {
+    margin-top: 1rem!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-10 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+}
+.main-title {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+}
+
+.font-30 {
+    font-size: 30px!important;
+}
+.font-a-b {
+    font-family: Redhat Bold!important;
+}
+.text-center {
+    text-align: center!important;
+}
+.h3, h3 {
+    font-size: 1.75rem;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+}
+.sub-title {
+    font-size: 22px;
+    color: #000;
+}
+.font-18 {
+    font-size: 18px!important;
+}
+.text-black {
+    color: #000!important;
+}
+.font-a-m {
+    font-family: Redhat Medium!important;
+}
+.text-center {
+    text-align: center!important;
+}
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.carousel[_ngcontent-lnk-c112] {
+    position: relative;
+}
+
+.carousel {
+    position: relative;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+.w-100 {
+    width: 100%!important;
+}
+a {
+    text-decoration: none!important;
+}
+
+a {
+    cursor: pointer;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}

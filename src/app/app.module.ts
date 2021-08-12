@@ -10,13 +10,17 @@ import { MatToolbarModule} from '@angular/material/toolbar';
 import { ExploreDestinationComponent } from './explore-destination/explore-destination.component';
 import { FeaturedHlidayHomesComponent } from './featured-hliday-homes/featured-hliday-homes.component';
 import { WhyChoseVistaComponent } from './why-chose-vista/why-chose-vista.component';
+import { LuxaryComponent } from './luxary/luxary.component';
+import { LuxaryVillasComponent } from './luxary-villas/luxary-villas.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ExploreDestinationComponent,
     FeaturedHlidayHomesComponent,
-    WhyChoseVistaComponent
+    WhyChoseVistaComponent,
+    LuxaryComponent,
+    LuxaryVillasComponent
   ],
   imports: [
     BrowserModule,

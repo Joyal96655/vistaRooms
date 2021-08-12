@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { WhyChoseVistaComponent } from './why-chose-vista.component';
+import { LuxaryComponent } from './luxary.component';
 
-describe('WhyChoseVistaComponent', () => {
-  let component: WhyChoseVistaComponent;
-  let fixture: ComponentFixture<WhyChoseVistaComponent>;
+describe('LuxaryComponent', () => {
+  let component: LuxaryComponent;
+  let fixture: ComponentFixture<LuxaryComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ WhyChoseVistaComponent ]
+      declarations: [ LuxaryComponent ]
     })
     .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(WhyChoseVistaComponent);
+    fixture = TestBed.createComponent(LuxaryComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

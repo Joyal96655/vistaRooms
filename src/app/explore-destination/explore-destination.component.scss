@@ -1,0 +1,153 @@
+.m-t-75[_ngcontent-jnk-c108] {
+    margin-top: 75px;
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1140px;
+}.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+}
+.mb-5, .my-5 {
+    margin-bottom: 3rem!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.font-18 {
+    font-size: 18px!important;
+}
+
+.text-black {
+    color: #000!important;
+}
+.font-a-m {
+    font-family: Redhat Medium!important;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+.mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+}
+
+.mt-3, .my-3 {
+    margin-top: 1rem!important;
+}
+.justify-content-center {
+    justify-content: center!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.carousel {
+    position: relative;
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+.carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+    margin-right: -100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: transform .6s ease-in-out;
+}
+.w-100 {
+    width: 100%!important;
+}
+.carousel-indicators {
+    margin-top: 30px;
+    position: relative;
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+dl, ol, ul {
+    margin-top: 0;
+}
+address, dl, ol, ul {
+    margin-bottom: 1rem;
+}
+b, strong {
+    font-weight: bolder;
+}
+main-title {
+    text-align: center;
+}
+
+.main-title {
+    color: #000;
+    font-size: 38px;
+}
+.font-30 {
+    font-size: 30px!important;
+}
+.font-a-b {
+    font-family: Redhat Bold!important;
+}
+.main-title{
+    text-align: center;
+}
+
+.carousel[_ngcontent-loh-c108] {
+    position: relative;
+}
+
+.carousel {
+    position: relative;
+}
+.carousel-indicators li {
+    background-color: #fff!important;
+    width: 8px;
+    height: 8px;
+    border-radius: 100%;
+    margin: 0 10px;
+    border: 4px solid transparent;
+    box-sizing: content-box;
+    box-shadow: 0 0 0 2px #c8c7cc!important;
+}
+
+.carousel-indicators li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 30px;
+    height: 3px;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity .6s ease;
+}

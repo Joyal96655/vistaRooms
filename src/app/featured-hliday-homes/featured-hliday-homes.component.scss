@@ -144,3 +144,61 @@ a {
 .d-inline-block {
     display: inline-block!important;
 }
+.img-con-8 {
+    background: url(https://vista-prod-web.s3.ap-south-1.amazonaws.com/gallery/n4o9yzccjnb9w3jlzxj5.jpg);
+    background-color: #ccc;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.img-con-9 {
+    background: url(https://vista-prod-web.s3.ap-south-1.amazonaws.com/gallery/wings-on-water-ba11ba.jpg);
+    background-color: #ccc;
+    height: 320px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
+.img-con-7, .img-con-8 {
+    height: 320px;
+    position: relative;
+}
+
+.img-con-7 {
+    background: url(https://vista-prod-web.s3.ap-south-1.amazonaws.com/gallery/nkv2opixxu7tiunlfxtf.jpg);
+    background-color: #ccc;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a:not([href]), a:not([href]):hover {
+    color: inherit;
+    text-decoration: none;
+}
+
+a {
+    cursor: pointer;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+ :after, :before {
+    box-sizing: border-box;
+}
+.img-con-1, .img-con-2, .img-con-3, .img-con-4, .img-con-5, .img-con-6 {
+    background-color: #ccc;
+    height: 320px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.prop-img:hover .grid-inner-container {
+    opacity: 1;
+    transform: translateY(0);
+}

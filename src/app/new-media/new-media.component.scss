@@ -1,0 +1,48 @@
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+.mt-5, .my-5 {
+    margin-top: 3rem!important;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+:after, :before {
+    box-sizing: border-box;
+}
+.text-center {
+    text-align: center!important;
+}
+.col {
+    flex-basis: 0;
+    flex-grow: 1;
+    min-width: 0;
+    max-width: 100%;
+}
+a {
+    cursor: pointer;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.img-responsive[_ngcontent-vwg-c114] {
+    width: 85%;
+    height: 60%;
+}
+
+.outline-box[_ngcontent-vwg-c114] {
+    border: 1px solid #ced9e0!important;
+    margin: 10px;
+}
+img, svg {
+    vertical-align: middle;
+}

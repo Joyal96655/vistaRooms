@@ -7,12 +7,7 @@
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
+
 .main-title {
     text-align: center;
 }
@@ -24,31 +19,18 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     font-size: 34px;
     font-weight: 700;
 }
-.font-30 {
-    font-size: 30px!important;
-}
-.font-a-b {
-    font-family: Redhat Bold!important;
-}
-.text-center {
-    text-align: center!important;
-}
+
+
+
 .sub-title {
     color: #000;
     font-size: 22px;
 }
-.font-18 {
-    font-size: 18px!important;
-}
+
 .text-black {
     color: #000!important;
 }
-.font-a-m {
-    font-family: Redhat Medium!important;
-}
-.text-center {
-    text-align: center!important;
-}
+
 .mb-5, .my-5 {
     margin-bottom: 3rem!important;
 }
@@ -88,13 +70,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 
-.btn-choice {
-    color: #000;
-    background-color: #fff;
-    border: 1px solid #c8c7cc;
-    font-size: 18px;
-    font-weight: 700;
-}
+
 .btn {
     width: 100%;
     border-radius: 15px!important;
@@ -108,9 +84,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
 }
-.font-18 {
-    font-size: 18px!important;
-}
+
 .btn {
     display: inline-block;
     font-weight: 400;

@@ -12,25 +12,14 @@
 .justify-content-center {
     justify-content: center!important;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
-.font-18 {
-    font-size: 18px!important;
-}
+
+
 
 .text-black {
     color: #000!important;
 }
-.font-a-m {
-    font-family: Redhat Medium!important;
-}
-.text-center {
-    text-align: center!important;
-}
+
+
 
 .mb-4, .my-4 {
     margin-bottom: 1.5rem!important;
@@ -45,12 +34,7 @@
 .justify-content-center {
     justify-content: center!important;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
+
 dl, ol, ul {
     margin-top: 0;
 }
@@ -63,17 +47,14 @@ b, strong {
 main-title {
     text-align: center;
 }
-
+.font-18 {
+    font-size: 18px!important;
+}
 .main-title {
     color: #000;
     font-size: 38px;
 }
-.font-30 {
-    font-size: 30px!important;
-}
-.font-a-b {
-    font-family: Redhat Bold!important;
-}
+
 .main-title{
     text-align: center;
 }
@@ -104,9 +85,7 @@ main-title {
     backface-visibility: hidden;
     transition: transform .6s ease-in-out;
 }
-.w-100 {
-    width: 100%!important;
-}
+
 
 a {
     cursor: pointer;

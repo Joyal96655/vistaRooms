@@ -10,27 +10,161 @@
                 <h6  class="text-center font-18 font-a-m text-black">Skip the cookie-cutter hotel stays for the charm and warmth of our luxury holiday homes and personalized experiences. With over 500+ homes in 50+ destinations, invite you to experience the authenticity of India without compromising on hospitality.</h6>
             </div>
         </div>
-        <div  id="carouselExampleControls" data-interval="5000" data-ride="carousel" class="carousel slide">
-            <div  class="carousel-inner"><div  class="carousel-item active">
-                <div  class="w-100">
-                    <a  target="_blank" href="/maharashtra/villas-in-mumbai">
-                        <div  class="vacation-img carousel-multi-img-style">
-                            <img  alt="Jaipur" class="lazy img-responsive rounded-circle center-block ng-lazyloaded" src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Mumbai_1.jpg">
-                            <h4  class="location-title mt-3 font-20">Mumbai</h4>
+        <carousel
+        [images]="images"
+        [pauseOnHover]="true"
+        [autoplay]="true"
+        [cellsToShow]="5"
+        [autoplayInterval]="2000"
+        [dots]="true"
+        [arrows]= "false"
+        [loop]="true"
+        [freeScroll]="true"
+        [margin]="20"
+        [cellWidth]="100"
+       
+        >
+    </carousel>
+        
+        <!-- <div  id="carouselExampleControls" data-interval="5000" data-ride="carousel" class="carousel slide">
+            <div  class="carousel-inner">
+                <div  class="carousel-item active">
+                    <div  class="w-100">
+                        <a  target="_blank" href="/maharashtra/villas-in-mumbai">
+                            <div  class="vacation-img carousel-multi-img-style">
+                                <img  alt="Jaipur" class="lazy img-responsive rounded-circle center-block ng-lazyloaded" src="../../assets/image/exploreDestination/Mumbai.jpg">
+                                <h4  class="location-title mt-3 font-20">Mumbai</h4>
+                            </div>
+                        </a>
+                        <a  target="_blank" href="/goa/villas-in-goa">
+                            <div  class="vacation-img carousel-multi-img-style">
+                                <img  alt="goa" class="lazy img-responsive rounded-circle center-block ng-lazyloaded" src="../../assets/image/exploreDestination/Goa.jpg">
+                                <h4  class="location-title mt-3 font-20">Goa</h4>
+                            </div>
+                        </a>
+                        <a  target="_blank" href="/delhi/villas-in-new delhi">
+                            <div  class="vacation-img carousel-multi-img-style">
+                                <img  alt="Mahableshwar" class="lazy img-responsive rounded-circle center-block ng-lazyloaded" src="../../assets/image/exploreDestination/Delhi.jpg">
+                                <h4 class="location-title mt-3 font-20">Delhi</h4>
+                            </div>
+                        </a>
+                        <a  target="_blank" href="/karnataka/villas-in-bangalore">
+                            <div  class="vacation-img carousel-multi-img-style">
+                                <img  alt="Lavasa" class="lazy img-responsive rounded-circle center-block ng-lazyloaded" src="../../assets/image/exploreDestination/Bangalore.jpg">
+                                <h4  class="location-title mt-3 font-20">Bangalore</h4>
+                            </div>
+                        </a>
+                        <a  target="_blank" href="/rajasthan/villas-in-udaipur">
+                            <div  class="vacation-img carousel-multi-img-style">
+                                <img  alt="Udaipur" class="lazy img-responsive rounded-circle center-block ng-lazyloaded" src="../../assets/image/exploreDestination/Udaipur.jpg">
+                                <h4  class="location-title mt-3 font-20">Udaipur</h4>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div  class="carousel-item">
+                    <div  class="w-100">
+                        <a  target="_blank" href="/maharashtra/villas-in-lonavala">
+                            <div  class="vacation-img carousel-multi-img-style">
+                                <img  alt="Lonavala" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Lonavala.jpg">
+                                <h4  class="location-title mt-3 font-20">Lonavala</h4>
+                            </div>
+                        </a>
+                        <a  target="_blank" href="/maharashtra/villas-in-alibaug">
+                            <div  class="vacation-img carousel-multi-img-style">
+                                <img  alt="alibaug" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Alibaug.jpg">
+                                <h4  class="location-title mt-3 font-20">Alibaug</h4>
+                            </div>
+                        </a>
+                        <a  target="_blank" href="/himanchal-pradesh/villas-in-chail">
+                                <div  class="vacation-img carousel-multi-img-style">
+                                    <img  alt="ChailKasauli" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Chail-Kasauli.jpg">
+                                    <h4  class="location-title mt-3 font-20">Chail-Kasauli</h4>
+                                </div>
+                            </a>
+                            <a  target="_blank" href="/himachal-pradesh/villas-in-kullu">
+                                <div  class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Kullu" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Kullu.jpg">
+                                    <h4  class="location-title mt-3 font-20">Kullu</h4>
+                                </div>
+                            </a>
+                            <a  target="_blank" href="/maharashtra/villas-in-nashik">
+                                <div  class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Nashik" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Nashik.jpg">
+                                    <h4  class="location-title mt-3 font-20">Nashik</h4>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                    <a  target="_blank" href="/goa/villas-in-goa">
-                        <div  class="vacation-img carousel-multi-img-style">
-                            <img  alt="goa" class="lazy img-responsive rounded-circle center-block ng-lazyloaded" src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Goa_1.jpg">
-                            <h4  class="location-title mt-3 font-20">Goa</h4>
+                    </div>
+                    <div  class="carousel-item">
+                        <div  class="w-100">
+                            <a  target="_blank" href="/karnataka/villas-in-coorg">
+                                <div  class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Coorg" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Coorg.jpg">
+                                    <h4  class="location-title mt-3 font-20">Coorg</h4>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/uttarakhand/villas-in-dehradun">
+                                <div  class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Dehradun" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Dehradun.jpg">
+                                    <h4  class="location-title mt-3 font-20">Dehradun - Mussoorie</h4>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/rajasthan/villas-in-jaipur">
+                                <div  class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Jaipur" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Jaipur.jpg">
+                                    <h4  class="location-title mt-3 font-20">Jaipur</h4>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/himanchal-pradesh/villas-in-shimla">
+                                <div  class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Shimla" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Shimla.jpg">
+                                    <h4  class="location-title mt-3 font-20">Shimla</h4>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/tamil nadu/villas-in-ooty">
+                                <div class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Ooty" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Ooty.jpg">
+                                    <h4  class="location-title mt-3 font-20">Ooty</h4>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                    <a  target="_blank" href="/delhi/villas-in-new delhi">
-                        <div  class="vacation-img carousel-multi-img-style">
-                            <img  alt="Mahableshwar" class="lazy img-responsive rounded-circle center-block ng-lazyloaded" src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Delhi_1.jpg">
-                            <h4  class="location-title mt-3 font-20">Delhi</h4>
+                    </div>
+                    <div class="carousel-item">
+                        <div  class="w-100">
+                            <a target="_blank" href="/maharashtra/villas-in-pune">
+                                <div  class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Udaipur" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/pune.jpg">
+                                    <h4  class="location-title mt-3 font-20">Pune</h4>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/uttarakhand/villas-in-nainital">
+                                <div  class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Nainital" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Nainital.jpg">
+                                    <h4  class="location-title mt-3 font-20">Nainital</h4>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/maharashtra/villas-in-mahabaleshwar">
+                                <div class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Mahableshwar" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Mahabaleshwar.jpg">
+                                    <h4  class="location-title mt-3 font-20">Mahabaleshwar</h4>
+                                </div>
+                            </a>
+                            <a target="_blank" href="/maharashtra/villas-in-lavasa">
+                                <div class="vacation-img carousel-multi-img-style">
+                                    <img  alt="Lavasa" class="lazy img-responsive rounded-circle center-block" src="../../assets/image/exploreDestination/Lavasa.jpg">
+                                    <h4  class="location-title mt-3 font-20">Lavasa</h4>
+                                </div>
+                            </a>
                         </div>
-                    </a>
-                    <a  target="_blank" href="/karnataka/villas-in-bangalore"><div  class="vacation-img carousel-multi-img-style"><img  alt="Lavasa" class="lazy img-responsive rounded-circle center-block ng-lazyloaded" src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Bangalore_1.jpg"><h4  class="location-title mt-3 font-20">Bangalore</h4></div></a><a  target="_blank" href="/rajasthan/villas-in-udaipur"><div  class="vacation-img carousel-multi-img-style"><img  alt="Udaipur" class="lazy img-responsive rounded-circle center-block ng-lazyloaded" src="https://img.vistarooms.com/angular_assets/common/top-destination/Desktop_city/Udaipur_1.jpg"><h4  class="location-title mt-3 font-20">Udaipur</h4></div></a></div></div><div  class="carousel-item"><div  class="w-100"><a  target="_blank" href="/maharashtra/villas-in-lonavala"><div  class="vacation-img carousel-multi-img-style"><img  alt="Lonavala" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Lonavala</h4></div></a><a  target="_blank" href="/maharashtra/villas-in-alibaug"><div  class="vacation-img carousel-multi-img-style"><img  alt="alibaug" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Alibaug</h4></div></a><a  target="_blank" href="/himanchal-pradesh/villas-in-chail"><div  class="vacation-img carousel-multi-img-style"><img  alt="ChailKasauli" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Chail-Kasauli</h4></div></a><a  target="_blank" href="/himachal-pradesh/villas-in-kullu"><div  class="vacation-img carousel-multi-img-style"><img  alt="Kullu" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Kullu</h4></div></a><a  target="_blank" href="/maharashtra/villas-in-nashik"><div  class="vacation-img carousel-multi-img-style"><img  alt="Nashik" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Nashik</h4></div></a></div></div><div  class="carousel-item"><div  class="w-100"><a  target="_blank" href="/karnataka/villas-in-coorg"><div  class="vacation-img carousel-multi-img-style"><img  alt="Coorg" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Coorg</h4></div></a><a  target="_blank" href="/uttarakhand/villas-in-dehradun"><div  class="vacation-img carousel-multi-img-style"><img  alt="Dehradun" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Dehradun - Mussoorie</h4></div></a><a  target="_blank" href="/rajasthan/villas-in-jaipur"><div  class="vacation-img carousel-multi-img-style"><img  alt="Jaipur" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Jaipur</h4></div></a><a  target="_blank" href="/himanchal-pradesh/villas-in-shimla"><div  class="vacation-img carousel-multi-img-style"><img  alt="Shimla" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Shimla</h4></div></a><a  target="_blank" href="/tamil nadu/villas-in-ooty"><div  class="vacation-img carousel-multi-img-style"><img  alt="Ooty" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Ooty</h4></div></a></div></div><div  class="carousel-item"><div  class="w-100"><a  target="_blank" href="/maharashtra/villas-in-pune"><div  class="vacation-img carousel-multi-img-style"><img  alt="Udaipur" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Pune</h4></div></a><a  target="_blank" href="/uttarakhand/villas-in-nainital"><div  class="vacation-img carousel-multi-img-style"><img  alt="Nainital" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Nainital</h4></div></a><a  target="_blank" href="/maharashtra/villas-in-mahabaleshwar"><div  class="vacation-img carousel-multi-img-style"><img  alt="Mahableshwar" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Mahabaleshwar</h4></div></a><a  target="_blank" href="/maharashtra/villas-in-lavasa"><div  class="vacation-img carousel-multi-img-style"><img  alt="Lavasa" class="lazy img-responsive rounded-circle center-block" src="../../../../assets/Reload-1s-200px.jpg"><h4  class="location-title mt-3 font-20">Lavasa</h4></div></a></div></div></div><ul  class="carousel-indicators"><li  data-target="#carouselExampleControls" data-slide-to="0" id="indicator1" class="active indicators"></li><li  data-target="#carouselExampleControls" data-slide-to="1" id="indicator2" class="indicators"></li><li  data-target="#carouselExampleControls" data-slide-to="2" id="indicator3" class="indicators"></li><li  data-target="#carouselExampleControls" data-slide-to="3" id="indicator3" class="indicators"></li></ul></div>
+                    </div>
+                </div>
+                <ul  class="carousel-indicators">
+                    <li  data-target="#carouselExampleControls" data-slide-to="0" id="indicator1" class="active indicators"></li>
+                    <li  data-target="#carouselExampleControls" data-slide-to="1" id="indicator2" class="indicators"></li>
+                    <li  data-target="#carouselExampleControls" data-slide-to="2" id="indicator3" class="indicators"></li>
+                    <li  data-target="#carouselExampleControls" data-slide-to="3" id="indicator3" class="indicators"></li>
+                </ul>
+        </div> -->
     </div>
 </section>

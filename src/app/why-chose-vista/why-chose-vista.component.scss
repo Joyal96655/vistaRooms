@@ -19,13 +19,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 .pb-4, .py-4 {
     padding-bottom: 1.5rem !important;
 }
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
+
 .main-title {
     text-align: center;
     padding-top: 40px;
@@ -65,12 +59,6 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: -277px;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
 img, svg {
     vertical-align: middle;
 }
@@ -84,13 +72,8 @@ img {
     color: #000;
 }
 
-.font-18 {
-    font-size: 18px !important;
-}
 
-.text-center {
-    text-align: center !important;
-}
+
 
 p {
     margin-top: 0px;

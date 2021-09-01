@@ -5,7 +5,8 @@
         <div class="container">
           <a  routerlink="/" class="navbar-brand" href="/"><img  src="../assets/image/RED.svg" alt="" class="logo_red"><img  src="../../../../assets/desktop/WHITE.svg" alt="" class="white_red"></a>
         </div>
-        <div  id="navbarCollapse" class="collapse navbar-collapse mt-1">
+        
+        <div  id="navbarCollapse" class="collapse navbar-collapse mt-1" style="text-align: right;">
           <ul  class="navbar-nav ml-auto">
             <li  class="nav-item dropdown megamenu-li city-dorop-down">
               <a  data-target="#" class="nav-link dropdown-toggle city-link font-14 hedaer-title">CITIES 
@@ -13,8 +14,101 @@
                 <i  class="fa fa-angle-down"></i></span>
               </a>
              </li>
+             <li  class="nav-item dropdown megamenu-li city-dorop-down">
+              <a  data-target="#" class="nav-link dropdown-toggle city-link font-14 hedaer-title">EXPLORE 
+                <span >
+                <i  class="fa fa-angle-down"></i></span>
+              </a>
+             </li>
+             <li  class="nav-item dropdown megamenu-li city-dorop-down">
+              <a  data-target="#" class="nav-link dropdown-toggle city-link font-14 hedaer-title">PARTNER WITH US 
+                <span >
+                <i  class="fa fa-angle-down"></i></span>
+              </a>
+             </li>
+             <li class="nav-item font-14" style="padding-right: 26px !important;">
+                <a routerlink="/offers" target="_blank" class="nav-link hedaer-title" style="text-transform: uppercase;" href="/offers">
+                  <img src="../assets/image/discount.svg" alt="" class="discount_white">
+                  <img src="../assets/image/discount_black.svg" alt="" class="discount_black"> Offers
+                </a>
+              </li>
+              <li class="nav-item ng-star-inserted">
+                <button id="loginModalBtn" data-toggle="modal" data-target="#userLogin" class="btn font-14 hedaer-title">
+                  <img src="../assets/image/usericon_black" alt="" width="25" class="usericon_black">
+                  <!-- <img src="../assets/image/user_icon_white.svg" alt="" width="25" class="usericon_white"> -->
+                     LOGIN </button>
+                </li>
           </ul>
         </div>
       </nav>
     </mat-toolbar>
   </p>
+  <section  class="search-header" style="margin-top: -21px;">
+    <div  class="container-fluid header-box">
+      <div  class="row h-100 justify-content-center align-items-center">
+        <div  class="video-box">
+          <div  id="homeCarousel" data-interval="5000" data-ride="carousel" class="carousel slide carousel-fade" style="z-index: 0 !important;">
+           <carousel [images]="images" [autoplay]="true" [autoplayInterval]="2000"  [pauseOnHover]="true" [cellsToShow]="1" [dots]="true" [arrows]= "false" [freeScroll]="true"[margin]="20" [height]="800"
+            [width]= 1070>
+            </carousel>
+          </div>
+        </div>
+      </div>
+      <div _ngcontent-fmq-c107="" class="carousel-detail carousel-caption container"><h2 _ngcontent-fmq-c107="" class="font-a-b font-38 text-white">WELCOME TO YOUR NEW <br _ngcontent-fmq-c107=""><span _ngcontent-fmq-c107="" style="text-decoration: line-through;">HOME/OFFICE</span><span _ngcontent-fmq-c107="" style="font-family: Roomfer;"> &nbsp;Life…</span></h2><p _ngcontent-fmq-c107="" class="font-18 mt-5 text-white header-info">find your kind of work-life balance.</p></div>
+ 
+      <div class="container search-container-fotm">
+        <div  class="row search-form">
+          <div  class="col-lg-4 col-md-3 col-sm-12 input-text location-search">
+            <div  class="form-group">
+              <div >
+                <label  class="font-14">Location</label>
+                <div  class="search-container">
+                  <input  type="text" list="menu" name="city" autocomplete="off" autocapitalize="none" value="" placeholder="Where are you travelling to/from?" class="form-control font-16 search-dropdown text-capitalize">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div  class="col-lg-4 col-md-3 col-sm-6 input-text">
+            <div  class="form-group">
+              <label  class="font-14">Date</label>
+              <input  type="text" readonly="" id="date-range" autocomplete="off" required="" bsdaterangepicker="" placeholder="Check-in / Check-out" class="font-16 form-control bg-white ng-untouched ng-pristine ng-invalid">
+            </div>
+          </div>
+          <div  class="col-lg-2 col-md-3 col-sm-12 input-text">
+            <div  class="form-group">
+              <label  class="font-14">Guest</label>
+              <input  type="text" readonly="" data-toggle="dropdown" class="form-control sperson dropdown-toggle bg-white font-16" placeholder="1 Guest">
+              <ul  role="menu" class="dropdown-menu openMenu openMenu-new" style="width: 93%;">
+                <li >
+                  <label >Adults</label>
+                  <div  style="display: inline-flex; padding-left: 22px;">
+                    <input  type="button" value="-" field="adults" class="bg-white qtyminus qtybtnmn">
+                    <input  type="text" name="adults" id="adultVal" readonly="" class="bg-white qty">
+                    <input  type="button" value="+" field="adults" class="bg-white qtyplus qtybtn">
+                  </div>
+                </li>
+                <li>
+                  <label >Children </label>
+                  <div  style="display: inline-flex; padding-left: 8px;">
+                    <input  type="button" value="-" field="adults" class="bg-white qtyminus qtybtnmn">
+                    <input  type="text" id="childVal" name="childs" readonly="" class="qty">
+                    <input  type="button" value="+" field="childs" class="qtypluschild qtybtn">
+                  </div>
+                  <span  class="age">Age 5-12</span>
+                </li>
+                <div class="col-xs-6 p-t-5">
+                  <a  class="pull-left guestcancelbtn font-15" style="display: inline; clear: none; text-shadow: none; padding-left: 12px; text-decoration: underline;">Cancel</a>
+                </div>
+                <div  class="col-xs-6">
+                  <a  class="pull-right text-vista-red font-15" style="display: inline; clear: none; text-shadow: none; padding-right: 12px; color: #df495b;">Apply</a>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-12 search-btn font-20">
+            <button  class="btn font-weight-bold">SEARCH</button>
+          </div>
+        </div>
+      </div>
+        </div>
+  </section>

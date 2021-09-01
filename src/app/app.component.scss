@@ -1,0 +1,38 @@
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.text-center {
+    text-align: center !important;
+}
+.font-18 {
+    font-size: 18px !important;
+}
+.font-a-m {
+    font-family: Redhat Medium!important;
+}
+.w-100 {
+    width: 100%!important;
+}
+.font-30 {
+    font-size: 30px!important;
+}
+.font-a-b {
+    font-family: Redhat Bold!important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+.container, .container-lg, .container-md, .container-sm {
+    max-width: 960px;
+}
+.container, .container-md, .container-sm {
+    max-width: 720px;
+}

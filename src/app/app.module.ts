@@ -18,7 +18,8 @@ import { ChosenTrustedComponent } from './chosen-trusted/chosen-trusted.componen
 import { NewMediaComponent } from './new-media/new-media.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
-
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { OwlModule } from 'ngx-owl-carousel';
 @NgModule({
   declarations: [
     AppComponent,
@@ -40,7 +41,9 @@ import { HeaderComponent } from './header/header.component';
     BrowserAnimationsModule,
     MatSliderModule,
     MatCardModule,
-    MatToolbarModule
+    MatToolbarModule,
+    IvyCarouselModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]

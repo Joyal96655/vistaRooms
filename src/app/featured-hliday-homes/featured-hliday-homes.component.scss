@@ -7,19 +7,10 @@
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+.font-18 {
+    font-size: 18px!important;
 }
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-}
+
 .mt-3, .my-3 {
     margin-top: 1rem!important;
 }
@@ -109,9 +100,7 @@ a {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.font-18 {
-    font-size: 18px!important;
-}
+
 .text-right {
     text-align: right!important;
 }
@@ -132,9 +121,7 @@ a {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-.font-18 {
-    font-size: 18px!important;
-}
+
 .text-right {
     text-align: right!important;
 }
@@ -202,3 +189,13 @@ a {
     opacity: 1;
     transform: translateY(0);
 }
+.main-title {
+    font-size: 34px;
+    color: #000;
+    font-weight: 700;
+}
+
+.text-bold {
+    font-weight: 600;
+}
+
